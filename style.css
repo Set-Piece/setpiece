@@ -9,8 +9,9 @@ https://www.tooplate.com/view/2117-infinite-loop
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 .navbar-brand img{
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 70px;
+  
 }
 
 body {
@@ -47,6 +48,7 @@ a:focus {
 blockquote {
   font-size: 0.86em;
   line-height: 1.8em;
+  color: #3b3b3b;
 }
 
 .tm-section-pad-top {
@@ -60,7 +62,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #fefdc2;
 }
 
 .tm-font-big {
@@ -111,6 +113,7 @@ blockquote {
 
 .nav-item {
   list-style: none;
+  color: #fefdc2
 }
 
 .tm-nav-link {
@@ -125,7 +128,7 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: #FFF;
-  background-color: #369;
+  background-color: #c8e7ec;
 }
 
 .navbar-toggler {
@@ -218,6 +221,7 @@ blockquote {
 .tm-hero-title {
   font-size: 3.5rem;
   text-shadow: 2px 2px 2px #333;
+  color: #fefdc2
 }
 
 .tm-hero-subtitle {
@@ -249,7 +253,7 @@ blockquote {
 .tm-down-arrow {
   	color: #FFF;
     cursor: pointer;
-    background: #357;
+    background: #c8e7ec;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -270,6 +274,7 @@ blockquote {
 .tm-section-title {
   font-size: 2.6rem;
   font-weight: normal;
+  color: #fefdc2;
 }
 
 .tm-intro-text {
@@ -278,7 +283,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #c8e7ec;
 }
 
 .tm-continue {
@@ -288,7 +293,7 @@ blockquote {
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background: #c8e7ec;
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -297,7 +302,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background: #c8e7ec;
   }
 }
 
@@ -330,7 +335,6 @@ blockquote {
 }
 
 .tm-testimonial-item img {
-  border-radius: 50%;
   margin-bottom: 35px;
 }
 
@@ -641,6 +645,7 @@ p {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 30px;
     padding-left: 30px;
+    color: #fefdc2;
   }
 }
 
@@ -683,7 +688,7 @@ p {
 
   .navbar-nav {
     max-width: 200px;
-    text-align: right;
+    text-align: right; 
   }
 
   .navbar-collapse {
@@ -712,8 +717,3 @@ p {
   .slick-dots li {
     margin: 0 8px;
   }
-
-  .tm-gallery-item {
-    margin: 0;
-  }
-}
